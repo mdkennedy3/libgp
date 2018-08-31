@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>libgp</name>
+  <version>1.0.1</version>
+
+
+  <description>GP cpp package</description>
+  <maintainer email="mblum@users.noreply.github.com">Manuel Blum</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>eigen</depend>
+
+
+  <export>
+  </export>
+</package>

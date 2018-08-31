@@ -22,24 +22,24 @@ SET(LIBGP_SRC
 )
 
 SET(LIBGP_INTERFACES 
-  include/cov.h
-  include/cov_factory.h
-  include/cov_linear_ard.h
-  include/cov_linear_one.h
-  include/cov_matern3_iso.h
-  include/cov_matern5_iso.h
-  include/cov_noise.h
-  include/cov_rq_iso.h
-  include/cov_periodic_matern3_iso.h
-  include/cov_periodic.h
-  include/cov_se_ard.h
-  include/cov_se_iso.h
-  include/cov_sum.h
-  include/cov_prod.h
-  include/gp.h
-  include/gp_utils.h
-  include/sampleset.h
-  include/rprop.h
-  include/input_dim_filter.h
-  include/cg.h
+  include/libgp/cov.h
+  include/libgp/cov_factory.h
+  include/libgp/cov_linear_ard.h
+  include/libgp/cov_linear_one.h
+  include/libgp/cov_matern3_iso.h
+  include/libgp/cov_matern5_iso.h
+  include/libgp/cov_noise.h
+  include/libgp/cov_rq_iso.h
+  include/libgp/cov_periodic_matern3_iso.h
+  include/libgp/cov_periodic.h
+  include/libgp/cov_se_ard.h
+  include/libgp/cov_se_iso.h
+  include/libgp/cov_sum.h
+  include/libgp/cov_prod.h
+  include/libgp/gp.h
+  include/libgp/gp_utils.h
+  include/libgp/sampleset.h
+  include/libgp/rprop.h
+  include/libgp/input_dim_filter.h
+  include/libgp/cg.h
 )
